@@ -7,7 +7,7 @@ Simple chatbot implementation with PyTorch.
 
 The approach is inspired by this article and ported to PyTorch: [https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077).
 
-## Installation
+## Installation 🚀
 
 ### Create an environment
 Whatever you prefer (e.g. `conda` or `venv`)
@@ -52,7 +52,7 @@ This will dump `data.pth` file. And then run
 ```console
 python chat.py
 ```
-## Customize
+## Customize 📝
 Have a look at [intents.json](intents.json). You can customize it according to your own use case. Just define a new `tag`, possible `patterns`, and possible `responses` for the chat bot. You have to re-run the training whenever this file is modified.
 ```console
 {
