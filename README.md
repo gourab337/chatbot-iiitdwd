@@ -29,7 +29,7 @@ venv\Scripts\activate
 ```
 ### Install PyTorch and dependencies
 
-```
+```console
 pip install torch
 ```
 
@@ -59,7 +59,7 @@ python chat.py
 
 ## Activate
 Run (inside venv)
-```
+```console
 source activate pytorch
 ```
 
