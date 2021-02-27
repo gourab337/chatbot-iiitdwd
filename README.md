@@ -47,6 +47,11 @@ $ python
 >>> import nltk
 >>> nltk.download('punkt')
 ```
+## Activate
+Run (inside venv)
+```console
+source activate pytorch
+```
 ## Usage
 Run
 ```console
@@ -55,12 +60,6 @@ python train.py
 This will dump `data.pth` file. And then run
 ```console
 python chat.py
-```
-
-## Activate
-Run (inside venv)
-```console
-source activate pytorch
 ```
 
 ## Customize 📝
