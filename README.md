@@ -1,7 +1,6 @@
 # Implementation of a Contextual Chatbot in PyTorch.  
-Simple chatbot implementation with PyTorch. 
+Chatbot implementation with PyTorch. 
 
-- The implementation should be easy to follow for beginners and provide a basic understanding of chatbots.
 - The implementation is straightforward with a Feed Forward Neural net with 2 hidden layers.
 - Customization for your own use case is super easy. Just modify `intents.json` with possible patterns and responses and re-run the training (see below for more info).
 
@@ -21,6 +20,8 @@ $ python3 -m venv venv
 Mac / Linux:
 ```console
 . venv/bin/activate
+   OR
+source venv/bin/activate
 ```
 Windows:
 ```console
@@ -28,7 +29,11 @@ venv\Scripts\activate
 ```
 ### Install PyTorch and dependencies
 
-For Installation of PyTorch see [official website](https://pytorch.org/).
+```
+pip install torch
+```
+
+For further installation guide of PyTorch see [official website](https://pytorch.org/).
 
 You also need `nltk`:
  ```console
@@ -42,7 +47,6 @@ $ python
 >>> import nltk
 >>> nltk.download('punkt')
 ```
-
 ## Usage
 Run
 ```console
@@ -52,6 +56,13 @@ This will dump `data.pth` file. And then run
 ```console
 python chat.py
 ```
+
+## Activate
+Run (inside venv)
+```
+source activate pytorch
+```
+
 ## Customize 📝
 Have a look at [intents.json](intents.json). You can customize it according to your own use case. Just define a new `tag`, possible `patterns`, and possible `responses` for the chat bot. You have to re-run the training whenever this file is modified.
 ```console
