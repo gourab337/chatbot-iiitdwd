@@ -2,7 +2,7 @@
 
 Contains 3 sections: 
 1) Contextual chatbot implementation using PyTorch.
-2) Django application to connect the chatbot to the frontend via APIs.
+2) Flask application to connect the chatbot to the frontend via APIs.
 3) Frontend that can be customised to suit the user.
 
 ## Installation 🚀
